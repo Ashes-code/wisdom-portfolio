@@ -530,7 +530,7 @@ function App() {
           </div>
         </div>
       </section>
-
+      
       <section className="bg-[#0F131C] px-4 sm:px-6 lg:px-12 py-10">
         <div
           className="flex flex-col justify-center items-center mt-16 lg:mt-28 screen"
