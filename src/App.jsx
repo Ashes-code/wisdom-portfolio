@@ -50,9 +50,6 @@ function App() {
               <li className="text-lg font-semibold hover:text-white transition-all tracking-widest ">
                 <a href="#contact">Contact</a>
               </li>
-              <li className="text-lg font-bold bg-white text-blue-500 text-center hover:text-blue-700 py-2 px-6 rounded-md transition-all tracking-widest">
-                <a href="/https://drive.google.com/file/d/1Zi74sfPphjh_SfH8cwq8Zo55GGTRom4F/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV</a>
-              </li>
             </ul>
           )}
             <ul className="hidden lg:flex justify-between items-center text-gray-400 ">
@@ -64,9 +61,6 @@ function App() {
             </li>
             <li className="mx-6 text-lg font-semibold hover:text-white transition-all tracking-widest mt-5 lg:mt-0">
               <a href="#contact">Contact</a>
-            </li>
-            <li className="mx-6 text-lg font-bold bg-white text-blue-500 text-center mt-5 lg:mt-0 hover:text-blue-700 py-2 px-6 rounded-md transition-all tracking-widest">
-              <a href="https://drive.google.com/file/d/1Zi74sfPphjh_SfH8cwq8Zo55GGTRom4F/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV</a>
             </li>
           </ul>
         </div>
@@ -530,7 +524,7 @@ function App() {
           </div>
         </div>
       </section>
-      
+
       <section className="bg-[#0F131C] px-4 sm:px-6 lg:px-12 py-10">
         <div
           className="flex flex-col justify-center items-center mt-16 lg:mt-28 screen"
