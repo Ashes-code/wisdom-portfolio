@@ -30,7 +30,7 @@ function App() {
       setTogglehamburger((prev) => !prev);
     };
   return (
-    <section className="bg-[#0F131C] font-outfit">
+    <section className="bg-[#0F131C] font-poppins">
       <section>
         <div className="screen lg:flex  justify-between items-center py-8">
           <div className="text-center flex justify-between px-3 lg:px-0">
@@ -69,11 +69,11 @@ function App() {
       <section className="screen text-white">
         <div className="flex flex-col-reverse lg:flex-row justify-between py-16 mt-3 px-5 lg:px-0">
           <div className="flex flex-col items-start text-left">
-            <h1 className="text-5xl font-bold mb-8">
-              Hello, I am{" "}
-              <span className="text-blue-700 tracking-widest">Wisdom Ezeh</span>
+            <h1 className="text-5xl font-medium mb-3">
+              Hello!
             </h1>
-            <p className="w-11/12">
+              <span className="text-6xl font-bold mb-7">I am Ezeh Wisdom</span>
+            <p className="lg:w-9/12">
               I am front-end web developer with a focus on creating and
               exception digital experiences, websites and webapps that are fast,
               accessible, visually appealing, and responsive. With ample
@@ -81,13 +81,15 @@ function App() {
               and efficient innovations to solve problems.
             </p>
             <div className="mt-16">
-              <div className="flex items-end mb-2 justify-start">
-                <img src={location} alt="Location" className="flex h-7 mr-2" />
-                Abia State, Nigeria
-              </div>
-              <div className="flex items-end justify-start">
-                <img src={dot} alt="Availability" className="flex h-7 mr-2" />
-                Available for new projects
+              <div className="flex flex-col md:flex-row gap-5 lg:gap-10 lg:w-[40rem] justify-center lg:items-center">
+                <div className="flex items-end text-lg bg-[#091A48] rounded-full w-72 lg:w-full px-2 py-3">
+                  <img src={location} alt="Location" className="flex h-6 mr-2 items-center" />
+                  Abia State, Nigeria
+                </div>
+                <div className="flex items-end text-lg bg-[#091A48] rounded-full w-72 lg:w-full px-2 py-3">
+                  <img src={dot} alt="Availability" className="flex h-7 mr-2 items-center" />
+                  Available for new projects
+                </div>
               </div>
               <div className="flex mt-10">
                 <a
@@ -145,7 +147,7 @@ function App() {
           className="flex justify-center items-center mt-28 screen"
           id="about"
         >
-          <h1 className="text-xl font-bold mb-12 text-blue-700 rounded-md bg-white py-2 px-4 mt-12 tracking-widest">
+          <h1 className="text-3xl font-bold mb-12 text-blue-700 rounded-md py-2 px-4 mt-12 tracking-widest">
             About Me
           </h1>
         </div>
@@ -158,7 +160,7 @@ function App() {
             />
           </div>
           <div className="text-left max-w-2xl mb-5">
-            <h1 className="text-4xl text-center tracking-widest font-bold mb-4 text-white">
+            <h1 className="text-4xl text-start md:text-center tracking-widest font-bold mb-4 text-white">
               Curious about me?
             </h1>
             <p className="text-white leading-relaxed text-lg mt-4">
@@ -270,7 +272,7 @@ function App() {
 
       <section className="screen">
         <div className="flex justify-center items-center mt-28 screen flex-col">
-          <h1 className="text-xl font-bold mb-5 text-blue-700 rounded-md bg-white py-2 px-4 mt-12 tracking-widest">
+          <h1 className="text-3xl font-bold mb-5 text-blue-700 rounded-md py-2 px-4 mt-12 tracking-widest">
             Skills
           </h1>
           <p className="text-white text-lg font-bold mb-8 text-center px-5 lg:px-0">
@@ -318,7 +320,7 @@ function App() {
           className="flex justify-center items-center mt-28 screen flex-col screen"
           id="projects"
         >
-          <h1 className="text-xl font-bold mb-5 text-blue-700 rounded-md bg-white py-2 px-4 mt-12 tracking-widest">
+          <h1 className="text-3xl font-bold mb-5 text-blue-700 rounded-md py-2 px-4 mt-12 tracking-widest">
             Projects
           </h1>
           <p className="text-white text-lg text-center font-bold mb-8 px-5 lg:px-0">
@@ -525,12 +527,12 @@ function App() {
         </div>
       </section>
 
-      <section className="bg-[#0F131C] px-4 sm:px-6 lg:px-12 py-10">
+      <section className="bg-[#0F131C] px-3 lg:px-12 py-10">
         <div
           className="flex flex-col justify-center items-center mt-16 lg:mt-28 screen"
           id="contact"
         >
-          <h1 className="text-xl font-bold mb-5 text-blue-700 rounded-md bg-white py-2 px-4 tracking-widest">
+          <h1 className="text-3xl font-bold mb-5 text-blue-700 rounded-md py-2 px-4 tracking-widest">
             Get in Touch
           </h1>
           <p className="text-white text-lg font-bold mb-9 text-center lg:w-[50rem]">
@@ -539,12 +541,12 @@ function App() {
           </p>
         </div>
         <div className="flex flex-col items-center text-center pb-12 gap-6">
-          <h1 className="font-bold text-xl md:text-2xl lg:text-3xl text-white flex items-center">
-            <img src={email} alt="Email Icon" className="h-8 mr-3" />
+          <h1 className="font-bold text-lg md:text-2xl lg:text-3xl text-white flex items-center">
+            <img src={email} alt="Email Icon" className="h-6 mr-2" />
             wisdomcezeh@gmail.com
           </h1>
-          <h1 className="font-bold text-xl md:text-2xl lg:text-3xl text-white flex items-center">
-            <img src={phone} alt="Phone Icon" className="h-8 mr-3" />
+          <h1 className="font-bold text-lg md:text-2xl lg:text-3xl text-white flex items-center">
+            <img src={phone} alt="Phone Icon" className="h-6 mr-2" />
             +234 7072967842
           </h1>
         </div>
