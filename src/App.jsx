@@ -35,7 +35,7 @@ function App() {
         <div className="screen lg:flex  justify-between items-center py-8">
           <div className="text-center flex justify-between px-3 lg:px-0">
             <a href="/">
-              <img src={logo} alt="Logo" className="flex h-12 md:14 lg:h-20 lg:hover:scale-125 transition-all" />
+              <img src={logo} alt="Logo" className="flex h-12 md:14 lg:h-20 lg:hover:scale-125 transition-all animate-pulse" />
             </a>            
             <img src={menu} alt="hamburger menu icon" className='flex justify-end lg:hidden h-10 md:12' onClick={handleToggle} />
           </div>
@@ -156,21 +156,21 @@ function App() {
             <img
               src={aboutbanner}
               alt="About me image"
-              className="h-[20rem] lg:h-[30rem] rounded-lg"
+              className="h-[20rem] lg:h-[30rem] rounded-lg animate"
             />
           </div>
           <div className="text-left max-w-2xl mb-5">
             <h1 className="text-4xl text-start md:text-center tracking-widest font-bold mb-4 text-white">
               Curious about me?
             </h1>
-            <p className="text-white leading-relaxed text-lg mt-4">
+            <p className="text-white leading-relaxed text-lg mt-4 animate-two">
               A passionate Front-End Developer dedicated to crafting visually
               stunning, user-friendly websites and web applications. I have
               expertise in React, TailwindCSS, JavaScript, and other modern web
               technologies, I aim to deliver seamless digital experiences that
               solve real-world problems.
             </p>
-            <p className="text-white leading-relaxed mt-4 text-lg">
+            <p className="text-white leading-relaxed mt-4 text-lg animate-two">
               I thrive on creating intuitive designs and functionality, ensuring
               every project reflects a blend of creativity, performance, and
               accessibility. Whether it’s building responsive web pages, dynamic
@@ -178,7 +178,7 @@ function App() {
               interfaces, I approach every task with precision, a drive to meet
               deadlines, curiosity, and a drive to continuously improve.
             </p>
-            <p className="text-white leading-relaxed mt-4 text-lg">
+            <p className="text-white leading-relaxed mt-4 text-lg animate-two">
               When I’m not coding, you can find me exploring the latest trends
               in tech, reading books, or enjoying music that fuels my
               creativity. My love for continuous learning keeps me motivated to
@@ -227,37 +227,37 @@ function App() {
                 </a>
               </span>
             </p>
-            <h3 className="text-2xl font-bold text-white mt-4 tracking-widest">
+            <h3 className="text-2xl font-bold text-white mt-4 tracking-widest animate-two">
               Finally, what I bring to the table:
             </h3>
             <div className="text-white leading-relaxed mt-4 px-3 lg:px-0 text-lg">
               <ul className="list-disc">
-                <li>
+                <li className="animate-two">
                   <span className="text-xl font-semibold">
                     Technical Expertise
                   </span>
                   : Proficient in HTML, CSS, JavaScript, Tailwind and frameworks
                   like React.
                 </li>
-                <li>
+                <li className="animate-two">
                   <span className="text-xl font-semibold">
                     Aesthetic Vision
                   </span>
                   : A strong sense of design, leveraging tools like TailwindCSS
                   to build clean, modern interfaces.
                 </li>
-                <li>
+                <li className="animate-two">
                   <span className="text-xl font-semibold">
                     Problem-Solving Skills
                   </span>
                   : An analytical mind to debug and optimize code efficiently.
                 </li>
-                <li>
+                <li className="animate-two">
                   <span className="text-xl font-semibold">Adaptability</span>: A
                   commitment to staying updated with emerging technologies and
                   industry practices.
                 </li>
-                <li>
+                <li className="animate-two">
                   <span className="text-xl font-semibold">Soft Skills</span>:
                   Effective communication, team collaboration, time management,
                   creativity, critical thinking, resilience, and a growth
@@ -279,7 +279,7 @@ function App() {
             The skills and technologies I am really good at:
           </p>
         </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 mb-20">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 mb-20 animate-pulse">
           <div className="flex items-center flex-col">
             <img src={html} alt="html5 image" />
             <p className="text-white font-semibold">HTML5</p>
@@ -329,7 +329,7 @@ function App() {
         </div>
         <div className="text-white screen pb-4 px-3 lg:px-0">
           <div className="flex flex-col-reverse lg:flex-row items-center justify-center bg-[#2b4973] py-10 rounded-xl my-10 px-5">
-            <div className="bg-gray-800 rounded-lg flex flex-col justify-center py-8 px-6 lg:mr-2">
+            <div className="bg-gray-800 rounded-lg flex flex-col justify-center py-8 px-6 lg:mr-2 animate">
               <h2 className="text-2xl font-bold mb-4">LiBrain</h2>
               <p className="text-white mb-4">
                 LiBrain is an online bookstore offering a curated selection of
@@ -388,14 +388,14 @@ function App() {
                 <img
                   src={librain}
                   alt="Project preview"
-                  className="rounded-lg w-full h-full hover:scale-105 transition-all"
+                  className="rounded-lg w-full h-full hover:scale-105 transition-all animate-two"
                 />
               </a>
             </div>
           </div>
 
           <div className="flex flex-col-reverse lg:flex-row items-center justify-center bg-[#2b4973] py-10 rounded-xl my-10 px-5">
-            <div className="bg-gray-800 rounded-lg flex flex-col justify-center py-8 px-6 lg:mr-2">
+            <div className="bg-gray-800 rounded-lg flex flex-col justify-center py-8 px-6 lg:mr-2 animate">
               <h2 className="text-2xl font-bold mb-4">E-mine</h2>
               <p className="text-white mb-4">
                 E-mine is an e-commerce platform designed to offer users access
@@ -453,14 +453,14 @@ function App() {
                 <img
                   src={emine}
                   alt="Project preview"
-                  className="rounded-lg w-full h-full hover:scale-105 transition-all"
+                  className="rounded-lg w-full h-full hover:scale-105 transition-all animate-two"
                 />
               </a>
             </div>
           </div>
 
           <div className="flex flex-col-reverse lg:flex-row items-center justify-center bg-[#2b4973] py-10 rounded-xl my-10 px-5">
-            <div className="bg-gray-800 rounded-lg flex flex-col justify-center py-8 px-6 lg:mr-2">
+            <div className="bg-gray-800 rounded-lg flex flex-col justify-center py-8 px-6 lg:mr-2 animate">
               <h2 className="text-2xl font-bold mb-4">Belle-Food</h2>
               <p className="text-white mb-4">
                 Belle-Food is a user-friendly food ordering platform that allows
@@ -519,7 +519,7 @@ function App() {
                 <img
                   src={bellefood}
                   alt="Project preview"
-                  className="rounded-lg w-full hover:scale-105 transition-all"
+                  className="rounded-lg w-full hover:scale-105 transition-all animate-two"
                 />
               </a>
             </div>
@@ -535,17 +535,17 @@ function App() {
           <h1 className="text-3xl font-bold mb-5 text-blue-700 rounded-md py-2 px-4 tracking-widest">
             Get in Touch
           </h1>
-          <p className="text-white text-lg font-bold mb-9 text-center lg:w-[50rem]">
+          <p className="text-white text-lg font-bold mb-9 text-center lg:w-[50rem] animate-three">
             What’s next? Feel free to reach out to me if you are looking for a
             developer, have a query, or simply want to connect.
           </p>
         </div>
         <div className="flex flex-col items-center text-center pb-12 gap-6">
-          <h1 className="font-bold text-lg md:text-2xl lg:text-3xl text-white flex items-center">
+          <h1 className="font-bold text-lg md:text-2xl lg:text-3xl text-white flex items-center animate-three">
             <img src={email} alt="Email Icon" className="h-6 mr-2" />
             wisdomcezeh@gmail.com
           </h1>
-          <h1 className="font-bold text-lg md:text-2xl lg:text-3xl text-white flex items-center">
+          <h1 className="font-bold text-lg md:text-2xl lg:text-3xl text-white flex items-center animate-three">
             <img src={phone} alt="Phone Icon" className="h-6 mr-2" />
             +234 7072967842
           </h1>
