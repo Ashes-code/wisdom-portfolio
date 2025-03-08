@@ -7,25 +7,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.screen{
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
-@media(max-width: 480px) {
-  .screen{
-    max-width: 480px;
-    margin: 0 auto;
-  }
-}
-
-@media(max-width: 720px) {
-  .screen{
-    max-width: 720px;
-    margin: 0 auto;
-  }
-}
-
 
 ::-webkit-scrollbar{
   background: #333232; 
@@ -39,7 +20,7 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(22, 47, 92); 
 }
-
+/* 
 @keyframes appear-right{
   from {
     opacity: 0;
@@ -73,7 +54,7 @@ html {
       transform: translateY(0);
       opacity: 1;
   }
-}
+} */
 
 .animate{
   animation: appear-right linear;
