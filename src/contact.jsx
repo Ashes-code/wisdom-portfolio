@@ -8,9 +8,9 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <section className="bg-[#0F131C] px-3 lg:px-12 py-10">
+    <section className="container mx-auto border-[#000] border-t-4 px-3 lg:px-12 py-10">
       <div
-        className="flex flex-col justify-center items-center mt-16 lg:mt-16 container mx-auto"
+        className="flex flex-col justify-center items-center mt-16 lg:mt-10 container mx-auto"
         id="contact"
       >
         <h1 className="text-3xl font-bold mb-5 text-blue-700 rounded-md py-2 px-4 tracking-widest">

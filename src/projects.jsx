@@ -8,15 +8,15 @@ import emine from "./assets/e-mine.png";
 const Projects = () => {  
 
   return (
-    <section className="bg-[#1d2435] pb-10 lg:pb-20">
+    <section className="container border-[#000] border-t-4 mx-auto pb-10 lg:pb-20 ">
       <div
-        className="flex justify-center items-center flex-col container mx-auto"
+        className="flex justify-center items-center flex-col container mx-auto mt-10"
         id="projects"
       >
         <h1 className="text-3xl font-bold mb-5 text-blue-700 rounded-md py-2 px-4 mt-12 tracking-widest">
           Projects
         </h1>
-        <p className="text-white text-lg text-center font-bold px-5 lg:px-0">
+        <p className="text-white text-lg text-center font-bold px-5 lg:px-0 lg:mb-4">
           Some of the noteworthy projects I have built:
         </p>
       </div>
@@ -99,7 +99,7 @@ const Projects = () => {
               <img
                 src={librain}
                 alt="Project preview"
-                className="rounded-lg w-full h-full hover:scale-105 transition-all animate-two"
+                className="rounded-lg w-full h-full lg:w-[90rem] lg:h-[17rem] animate-two"
               />
             </a>
           </div>
@@ -175,7 +175,7 @@ const Projects = () => {
               <img
                 src={emine}
                 alt="Project preview"
-                className="rounded-lg w-full h-full hover:scale-105 transition-all animate-two"
+                className="rounded-lg w-full h-full lg:w-[90rem] lg:h-[17rem] animate-two"
               />
             </a>
           </div>
@@ -250,7 +250,7 @@ const Projects = () => {
               <img
                 src={scoutpro}
                 alt="Project preview"
-                className="rounded-lg w-full h-full hover:scale-105 transition-all animate-two"
+                className="rounded-lg w-full h-full lg:w-[90rem] lg:h-[17rem] animate-two"
               />
             </a>
           </div>
@@ -327,7 +327,7 @@ const Projects = () => {
               <img
                 src={bellefood}
                 alt="Project preview"
-                className="rounded-lg w-full hover:scale-105 transition-all animate-two"
+                className="rounded-lg w-full lg:w-[100rem] lg:h-[18.5rem] animate-two"
               />
             </a>
           </div>

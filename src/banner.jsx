@@ -16,7 +16,7 @@ const Banner = () => {
             Hello!
           </h1>
             <span className="text-6xl font-bold mb-7 intro-text">I am Ezeh Wisdom</span>
-          <p className="lg:w-9/12">
+          <p className="lg:w-9/12 lg:text-xl">
             I am front-end web developer with a focus on creating and
             exception digital experiences, websites and webapps that are fast,
             accessible, visually appealing, and responsive. With ample

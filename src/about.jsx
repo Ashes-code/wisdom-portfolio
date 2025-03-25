@@ -45,9 +45,9 @@ const About = () => {
   }, []);
 
   return (
-    <section className="bg-[#1d2435] about-section">
+    <section className="about-section border-[#000] border-t-4 mx-auto container">
       <div
-        className="flex justify-center items-center mt-28 container mx-auto"
+        className="flex justify-center items-center mt-28 lg:mt-10 container mx-auto"
         id="about"
       >
         <h1 className="text-3xl font-bold mb-12 text-blue-700 rounded-md py-2 px-4 mt-12 tracking-widest">
@@ -65,7 +65,7 @@ const About = () => {
         </div>
         <div className="text-left max-w-2xl mb-5">
           <h1 className="text-4xl text-start md:text-center tracking-widest font-bold mb-4 text-white about-text">
-            Curious about me?
+           Wisdom Ezeh
           </h1>
           <p className="text-white leading-relaxed text-lg mt-4 animate-two about-text">
             A passionate Front-End Developer dedicated to crafting visually
@@ -101,7 +101,7 @@ const About = () => {
             </span>{" "}
             <span>
               <a
-                href="www.linkedin.com/in/wisdomezeh-ashdom"
+                href="https://www.linkedin.com/in/wisdomezeh-ashdom"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-700 hover:underline underline-offset-4"
