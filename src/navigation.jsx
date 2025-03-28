@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <Routes>
       {/* <Route path="/wisdom-portfolio/" element={<GSAPDemo />} /> */}
-      <Route path="/wisdom-portfolio/" element={<App />} />
+      <Route path="/" element={<App />} />
     </Routes>
   );
 }
