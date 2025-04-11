@@ -111,7 +111,7 @@ const Banner = () => {
         </div>
         <div className="">
           <div className="-mt-5 lg:-mt-0 mb-10 lg:mb-0">
-            <img src={bannerimg} alt="" className="w-[65rem] rounded-md profile-pic" />
+            <img src={bannerimg} alt="Wisdom Ezeh" title="Wisdom Ezeh" className="w-[65rem] rounded-md profile-pic" />
           </div>
         </div>
       </div>

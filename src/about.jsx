@@ -57,9 +57,10 @@ const About = () => {
       <div className="container mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-8 px-4 lg:p-6">
         <div className="flex-shrink-0">
           <img
+            title="Wisdom Ezeh"
             ref={aboutImageRef}
             src={aboutbanner}
-            alt="About me image"
+            alt="Wisdom Ezeh"
             className="h-[20rem] lg:h-[30rem] rounded-lg animate about-image profile-pic"
           />
         </div>

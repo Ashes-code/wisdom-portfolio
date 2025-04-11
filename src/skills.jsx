@@ -10,6 +10,7 @@ import vite from "./assets/vite.png";
 import figma from "./assets/figma.png";
 import vercel from "./assets/vercel.png";
 import github from "./assets/github.png";
+import firebase from "./assets/firebase.png";
 
 const Skills = () => {
 
@@ -23,7 +24,7 @@ const Skills = () => {
           The skills and technologies I am really good at:
         </p>
       </div>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 mb-20 animate-pulse" id="skills-section">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 mb-10 animate-pulse" id="skills-section">
         <div className="flex items-center flex-col skill-icon">
           <img src={html} alt="html5 image" />
           <p className="text-white font-semibold">HTML5</p>
@@ -64,12 +65,16 @@ const Skills = () => {
           <img src={figma} alt="figma image" />
           <p className="text-white font-semibold">FIGMA</p>
         </div>
+        <div className="flex items-center flex-col skill-icon2">
+          <img src={firebase} alt="figma image" />
+          <p className="text-white font-semibold">Firebase</p>
+        </div>
         <div className="flex items-center flex-col skill-icon">
           <img src={vite} alt="vite image" />
           <p className="text-white font-semibold">VITE</p>
         </div>
         <div className="flex items-center flex-col skill-icon2">
-          <img src={vercel} alt="vercel image" className="h-28" />
+          <img src={vercel} alt="vercel image" className="h-24" />
           <p className="text-white font-semibold">VERCEL</p>
         </div>
       </div>

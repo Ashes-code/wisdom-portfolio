@@ -51,7 +51,7 @@ function App() {
         <div className="container mx-auto lg:flex justify-between items-center py-4">
           <div className="text-center flex justify-between px-3 lg:px-0">
             <a href="/wisdom-portfolio/">
-              <img src={logo} alt="Logo" className="flex h-14 lg:h-28 lg:hover:scale-125 transition-all" />
+              <img src={logo} alt="Logo" title="Wisdom Ezeh" className="flex h-14 lg:h-28 lg:hover:scale-125 transition-all" />
             </a>            
             <img src={menu} alt="hamburger menu icon" className='flex justify-end lg:hidden h-14' onClick={handleToggle} />
           </div>
