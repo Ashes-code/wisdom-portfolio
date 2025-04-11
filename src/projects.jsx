@@ -40,7 +40,7 @@ const Projects = () => {
               whileInView={{opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }} className="text-white mb-4">
-              scoutPRO is a powerful task management platform that aims to streamline football team&apos;s collaboration and simplify the way tasks are tracked and completed. It is designed with user-friendliness in mind and is tailored to enhance productivity within football teams of all sizes.
+              ChatRoom is a modern real-time chat application designed to simplify communication and enhance user interaction. It supports seamless messaging and responsive design across all devices. With features like message replies, notifications, no-mark delete, ChatRoom offers a smooth and engaging chat experience tailored for both casual and professional use.
             </motion.p>
             <motion.div initial= {{opacity: 0, y: 20}}
               whileInView={{opacity: 1, y: 0 }}
@@ -99,7 +99,7 @@ const Projects = () => {
                 src={chatroom}
                 alt="Project preview"
                 title="Chatroom"
-                className="rounded-lg w-full h-full lg:w-[94rem] lg:h-[18.5rem] animate-two"
+                className="rounded-lg w-full h-full lg:w-[130rem] lg:h-[20rem] animate-two"
               />
             </a>
           </div>
