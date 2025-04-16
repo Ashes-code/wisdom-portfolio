@@ -4,6 +4,7 @@ import bellefood from "./assets/belle-food.png";
 import librain from "./assets/librain.png";
 import emine from "./assets/e-mine.png";
 import chatroom from "./assets/chatroom.png";
+import pitchbot from "./assets/pitchbot.png";
 
 
 const Projects = () => {  
@@ -99,6 +100,82 @@ const Projects = () => {
                 src={chatroom}
                 alt="Project preview"
                 title="Chatroom"
+                className="rounded-lg w-full h-full lg:w-[130rem] lg:h-[20rem] animate-two"
+              />
+            </a>
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial= {{opacity: 0, y: 30}}
+          whileInView={{opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+            className="flex flex-col-reverse lg:flex-row items-center justify-center bg-[#2b4973] py-10 rounded-xl my-10 px-5 project-card">
+          <div className="bg-gray-800 rounded-lg flex flex-col justify-center py-8 px-6 lg:mr-2 animate">
+            <h2 className="text-2xl font-bold mb-4">PitchMate</h2>
+            <motion.p initial= {{opacity: 0, y: 20}}
+              whileInView={{opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }} className="text-white mb-4">
+              PitchMate is an AI-powered virtual assistant designed to help entrepreneurs and startups craft compelling business pitch decks with ease. the website combines a conversational chatbot interface with advanced AI capabilities enabling dynamic and intelligent responses. Ideal for founders looking for an intelligent brainstorming assistant to help structure, refine, and draft investor-ready business pitches.</motion.p>
+            <motion.div initial= {{opacity: 0, y: 20}}
+              whileInView={{opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }} className="flex flex-wrap gap-2 mb-6">
+              {[
+                "vite",
+                "JavaScript",
+                "Typescript",
+                "TailwindCSS",
+                "React",
+                "Framer-Motion",
+                "Git",
+                "GitHub",
+                "Vercel",
+                "OpenRouter"
+              ].map((tech, index) => (
+                <span
+                  key={index}
+                  className="bg-gray-700 text-white px-3 py-1 text-sm rounded-full"
+                >
+                  {tech}
+                </span>
+              ))}
+            </motion.div>
+            <a
+              href="https://pitchbot.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:underline flex items-center"
+            >
+              <span>Check it out</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                className="w-4 h-4 ml-1"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
+            </a>
+          </div>
+          <div className="flex justify-end ml-0 lg:ml-2 mb-5 lg:mb-0">
+            <a
+              href="https://pitchbot.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={pitchbot}
+                alt="Project preview"
+                title="Pitchbot"
                 className="rounded-lg w-full h-full lg:w-[130rem] lg:h-[20rem] animate-two"
               />
             </a>
