@@ -11,7 +11,7 @@ import weather from "./assets/weather.png";
 const Projects = () => {  
 
   return (
-    <section className="container border-[#000] border-t-4 mx-auto pb-10 lg:pb-20 ">
+    <section className="container mx-auto pb-10 lg:pb-20 ">
       <div
         className="flex justify-center items-center flex-col container mx-auto mt-10"
         id="projects"

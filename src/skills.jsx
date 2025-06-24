@@ -15,7 +15,7 @@ import firebase from "./assets/firebase.png";
 const Skills = () => {
 
   return (
-    <section className="container mx-auto border-[#000] border-t-4">
+    <section className="container mx-auto">
       <div className="flex justify-center items-center mt-10 container mx-auto flex-col">
         <h1 className="text-3xl font-bold mb-5 text-blue-700 rounded-md py-2 px-4 mt-12 tracking-widest">
           Skills
