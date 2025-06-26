@@ -49,11 +49,11 @@ function App() {
 
       <section>
         <div className="container mx-auto lg:flex justify-between items-center py-4">
-          <div className="text-center flex justify-between px-3 lg:px-0">
+          <div className="text-center flex justify-between items-center px-3 lg:px-0">
             <a href="/wisdom-portfolio/">
-              <img src={logo} alt="Logo" title="Wisdom Ezeh" className="flex h-14 lg:h-28 lg:hover:scale-125 transition-all" />
+              <img src={logo} alt="Logo" title="Wisdom Ezeh" className="flex h-20 lg:h-28 lg:hover:scale-125 transition-all" />
             </a>            
-            <img src={menu} alt="hamburger menu icon" className='flex justify-end lg:hidden h-14' onClick={handleToggle} />
+            <img src={menu} alt="hamburger menu icon" className='flex justify-end lg:hidden h-10' onClick={handleToggle} />
           </div>
           {togglehamburger && (
             <ul className="lg:hidden flex flex-col justify-between items-center bg-[#1F2937] text-gray-400 absolute top-20 left-0 w-full py-5 shadow-lg z-10">
