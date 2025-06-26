@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import github from "./assets/github.png";
 import linkedin from "./assets/linkedin.png";
 import x from "./assets/x.png";
@@ -6,7 +7,23 @@ import email from "./assets/mail.png";
 import phone from "./assets/phone.png";
 import { motion } from "framer-motion";
 
-const Contact = () => {
+const Contact = () => { 
+  const [emailHref, setEmailHref] = useState("mailto:wisdomcezeh@gmail.com");
+
+  useEffect(() => {
+    const userAgent = navigator.userAgent || navigator.vendor;
+
+    const isMobile =
+      /android|iphone|ipad|ipod|windows phone/i.test(userAgent.toLowerCase());
+
+    if (!isMobile) {
+      // On desktop: open Gmail compose window instead
+      setEmailHref(
+        "https://mail.google.com/mail/?view=cm&to=wisdomcezeh@gmail.com&su=Inquiry%20from%20your%20website&body=Hi%20Wisdom%2C%20I%20came%20across%20your%20profile%20on%20your%20website%20and%20would%20love%20to%20reach%20out."
+      );
+    }
+  }, []);
+
   return (
     <section className="container mx-auto border-[#000] border-t-4 px-3 lg:px-12 py-10">
       <div
@@ -23,7 +40,7 @@ const Contact = () => {
       </div>
       <div className="flex flex-col items-center text-center pb-12 gap-6">
         <a
-        href="https://mail.google.com/mail/?view=cm&fs=1&to=wisdomcezeh@gmail.com"
+        href={emailHref}
         target="_blank"
         rel="noopener noreferrer"
         >
@@ -40,7 +57,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://wa.me/2347072967842"
+            href="https://wa.me/2347072967842?text=Hello%21%20I%20found%20your%20contact%20on%20your%20website%20and%20would%20love%20to%20connect."
             target="_blank"
             rel="noopener noreferrer"
           >
